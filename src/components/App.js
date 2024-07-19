@@ -14,7 +14,7 @@ const App = () => {
         <input type="text"  onChange={showGreeting}></input>
         <div>
         {
-            input && <b>Hello {input}! </b> 
+            input && <p>Hello {input}! </p> 
         }
         </div>
        
