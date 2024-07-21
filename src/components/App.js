@@ -10,11 +10,11 @@ const App = () => {
   return (
     <div className="container">
         {/* Do not remove the main div */}
-        <h3>Enter your name:</h3>
+        <p>Enter your name:</p>
         <input type="text"  onChange={showGreeting}></input>
         <div>
         {
-            input && <p>Hello {input}! </p> 
+            input && <p>Hello {input}!</p> 
         }
         </div>
        
